@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        border: 1px solid black;
+      }
+       .second{
+         position:absolute;
+        top: 100px; }
+        /*  intially not working because by default position property is static */
+    
+      .container{
+        position:relative;
+        height:8000px;
+        background: yellow;
+      }
+      .third{
+        position:sticky;
+        top:80px;
+      }
+      .fourth{
+        position:fixed;
+      }
+      .box{
+        height:9000px;
+        background: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="profile.jpg"
+        alt="text"
+        width="200px"
+        height="200px"
+        class="image"
+      />
+      <img
+        src="new.jpg"
+        alt="text"
+        width="200px"
+        height="200px"
+        class="second"
+      />
+      <img
+        src="fresh.jpg"
+        alt="text"
+        width="200px"
+        height="200px"
+        class="third"
+      />
+      <img
+        src="download.jpg"
+        alt="text"
+        width="200px"
+        height="200px"
+        class="fourth"
+      />
+    </div>
+    <div class="box">
+
+    </div>
+  </body>
+</html>

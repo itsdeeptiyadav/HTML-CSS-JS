@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: beige;
+            border:5px solid black;
+            margin:2px;
+            padding:2px;
+            display:flex;
+            flex-direction: row;
+            /* by default will take horizontal direction */
+            /* flex-wrap: wrap-reverse; */
+            height:500px;
+            justify-content:  space-around;
+        }
+        .item{
+            width:200px;
+            height:200px;
+            border:2px solid brown;
+            margin:4px;
+            padding:2px;
+
+        }
+        #one{
+            background-color:red;
+            
+
+        }
+        #two{
+            background-color:yellow;
+            
+
+        }
+        #three{
+            background-color:green;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="one"></div>
+        <div class="item" id="two"></div>
+        <div class="item" id="three"></div>
+    </div>
+    
+</body>
+</html>

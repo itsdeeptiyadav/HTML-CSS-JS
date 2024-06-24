@@ -13,9 +13,13 @@
             display:flex;
             flex-direction: row;
             /* by default will take horizontal direction */
-            /* flex-wrap: wrap-reverse; */
-            height:500px;
-            justify-content:  space-around;
+            flex-wrap: wrap;
+            height:1000px;
+            justify-content: start;
+            align-items: start;
+            /* align-content: start; */
+            align-content: center;
+             
         }
         .item{
             width:200px;
@@ -40,13 +44,18 @@
             
 
         }
+        #fourth{
+            background-color: blueviolet;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="item" id="one"></div>
-        <div class="item" id="two"></div>
-        <div class="item" id="three"></div>
+        <div class="item" id="one">box1</div>
+        <div class="item" id="two">box2</div>
+        <div class="item" id="three">box3</div>
+        <div class="item " id="fourth">box4</div>
+        
     </div>
     
 </body>

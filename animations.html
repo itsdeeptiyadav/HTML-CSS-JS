@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+            box-sizing: border-box;
+
+
+        }
+        .container{
+            height:600vh;
+            width:600vw;
+            background-color: beige;
+            border:5px solid black;
+            
+
+        }
+        .box{
+            height:100px;
+            width:100px;
+            background-color: blue;
+            border:3px solid black;
+            border-radius: 5px;
+            position: relative;
+            animation-name: rightmove;
+            animation-duration: 5s;
+            animation-iteration-count: 4;
+
+        }
+        @keyframes rightmove {
+            from{
+                top:0;
+                left:0;
+            }
+            to{
+                top:0;
+                left:1200px;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            hello
+        </div>
+    </div>
+    
+</body>
+</html>

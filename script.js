@@ -13,15 +13,22 @@
 //     console.log("love babbar")
 // }
 // saymyname();
-let obj={
-    name :"deep",
-    "full name": "deepti yadav",
-    weight:50,
-    age:20,
-    greet: function(){
-        console.log("hello");
-    }
+// let obj={
+//     name :"deep",
+//     "full name": "deepti yadav",
+//     weight:50,
+//     age:20,
+//     greet: function(){
+//         console.log("hello");
+//     }
 
-};
-console.log(obj);
-obj.greet();
+// };
+// console.log(obj);
+// obj.greet();
+let arr=[1,3,4,5,7];
+arr.map((number,index)=>{
+    console.log("number is:")
+    console.log(number);
+    console.log("index is:")
+    console.log(index);
+})

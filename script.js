@@ -26,9 +26,16 @@
 // console.log(obj);
 // obj.greet();
 let arr=[1,3,4,5,7];
-arr.map((number,index)=>{
-    console.log("number is:")
-    console.log(number);
-    console.log("index is:")
-    console.log(index);
-})
+// arr.map((number,index)=>{
+//     console.log("number is:")
+//     console.log(number);
+//     console.log("index is:")
+//     console.log(index);
+// })
+let numbers = [5, 3, 8, 1, 2, 7];
+
+// Sort in descending order
+numbers.sort((a, b) => b - a);
+
+console.log(numbers); // Output: [8, 7, 5, 3, 2, 1]
+console.log(typeof(numbers[2]));

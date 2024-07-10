@@ -39,3 +39,12 @@ numbers.sort((a, b) => b - a);
 
 console.log(numbers); // Output: [8, 7, 5, 3, 2, 1]
 console.log(typeof(numbers[2]));
+function solve(number){
+    return function(number){
+        return number*number;
+    }
+
+
+}
+let ans=solve();
+console.log(ans(10));

@@ -7,6 +7,6 @@ function change(){
 
 for(let j=0;j<paras.length;j++){
     let para=paras[j];
-    para.addEventListener('click',change());
+    para.addEventListener('click',change);
 }
 

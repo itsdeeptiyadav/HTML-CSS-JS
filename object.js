@@ -12,3 +12,4 @@ console.log("me:",mme);
 for(let key in src){
     console.log(key);
 }
+window.open();
